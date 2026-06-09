@@ -1,0 +1,53 @@
+# Power BI temp files
+*.pbix.bak
+*.pbix.tmp
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+*.xlk
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+
+# Sensitive data
+*.env
+secrets.json
+config.json
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
